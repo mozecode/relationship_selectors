@@ -1,0 +1,62 @@
+
+header {
+	border:1px solid blue;
+}
+
+header ul  {
+	display:flex;
+	
+}
+
+header ul li {
+	display:flex;
+	list-style: none;
+	padding-right: 20px;
+
+}
+
+header ul li a {
+
+}
+
+.disabled {
+	color:grey;
+}
+
+a span.disabled, a.disabled {
+	color:#CC10FF;
+}
+
+.active {
+	color:yellow;
+}
+
+div.parent div:first-child {
+	color:red;
+}
+
+div.parent div:nth-child(3){
+	color:blue;
+}
+
+div.parent div h4:first-of-type{
+	background-color:red;
+}
+
+div.parent div h4:last-of-type{
+	background-color: blue;
+}
+
+div.grandparent h4:last-child{
+	border:1px solid blue;
+	border-radius:50px;
+}
+
+.promo, div.promo span.disabled {
+	color:gold;
+	font-weight: bold;
+}
+
+input[type="text"] {
+	height: 25px;
+}
